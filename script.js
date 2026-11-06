@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ameliaTestButton = document.querySelector('.amelia-test-btn');
     if (ameliaTestButton) {
         const phoneNumber = '555592175599'; 
-        const startMessage = 'Olá, Amélia';
+        const startMessage = 'Olá Amélia';
         const encodedStartMessage = encodeURIComponent(startMessage);
         const ameliaWhatsappLink = `https://wa.me/${phoneNumber}?text=${encodedStartMessage}`;
 
